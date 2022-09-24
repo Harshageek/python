@@ -1,0 +1,6 @@
+from time import sleep
+
+num1 = input("enter first number : ")
+num2 = input("enter second number: ")
+sleep(5)
+print ("congratulations!!,you have hacked spacex")
