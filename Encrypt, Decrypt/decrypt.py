@@ -20,6 +20,6 @@ for file in files:
 	with open(file,"wb") as thefile:
 		thefile.write(en)
 if files==[]:
-	print("Enter a valid file to encrypt")
+	print("Enter a valid file to decrypt")
 else:
 	print(f"{file}\nThe file have be decrypted successfully")
