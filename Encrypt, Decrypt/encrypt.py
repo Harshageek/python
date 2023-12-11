@@ -20,4 +20,7 @@ for file in files:
 	en=Fernet(key).encrypt(co)
 	with open(file,"wb") as thefile:
 		thefile.write(en)
-print(f"{files}\nThe file have be encrypted successfully")
+if files==[]:
+	print("Enter a valid file to encrypt")
+else:
+	print(f"{files}\nThe file have be encrypted successfully")
