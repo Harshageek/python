@@ -19,5 +19,7 @@ for file in files:
 	en=Fernet(s_key).decrypt(co)
 	with open(file,"wb") as thefile:
 		thefile.write(en)
-
-print(f"{file}\nThe file have be decrypted successfully")
+if files==[]:
+	print("Enter a valid file to encrypt")
+else:
+	print(f"{file}\nThe file have be decrypted successfully")
